@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical hospital website</title>
+    <meta name="description" content="This web page give information about hospitals websites.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" >
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js" integrity="sha512-p55Bpm5gf7tvTsmkwyszUe4oVMwxJMoff7Jq3J/oHaBk+tNQvDKNz9/gLxn9vyCjgd6SAoqLnL13fnuZzCYAUA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js" integrity="sha512-fHXRw0CXruAoINU11+hgqYvY/PcsOWzmj0QmcSOtjlJcqITbPyypc8cYpidjPurWpCnlB8VKfRwx6PIpASCUkQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/common.js"></script>
+</head>
+<body>
+    <header class="wrap-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-p-6">
+                    <img src="images/BestDoctor1.png" alt="Best Doctor" class="logo-1">
+                </div>
+                
+                <div class="col-8 col-p-6">
+                    <div class="flex justify-right hide-desktop h-100">
+                        <button class="btn-mob" aria-label="mobile-menu"><span></span><span></span><span></span></button>
+                    </div>
+                 <div class="collapse">
+                    <div class="flex space-bet topbar">
+                        <div class="icon-head"><span class="far fa-clock fa-flip-horizontal"></span></div>   
+                          <div class="para-1">
+                             <p><strong>WORK TIME:<time datetime="09:00:00">09:00-17:00</time></strong></p>
+                                 <p>Saturday and Sunday-CLOSED</p>
+                           </div>
+                         
+                         <div class="icon-head"><span class="fa fa-envelope"></span></div>   
+                          <div class="para-1">
+                             <p><strong>MAIL US</strong></p>
+                             <p>free@psdfreebies.com</p>
+                          </div>
+ 
+                          <div class="icon-head"><span class="fa fa-mobile"></span></div>   
+                           <div class="para-1">
+                               <p><strong>CALL US</strong>
+                                  <p>+123 4567 8900</p>
+                           </div>
+                     </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </header>
+    <hr class="line">
+    <nav class="wrap-2">
+        <div class="container">
+            <div class="row ">
+                 <div class="col-6 col-m-8 col-p-12">
+                     <div class="nav-bar">
+                        <ul class="flex space-bet links-1">
+                            <li><a href="index.html" class="active">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <!-- <li><a href="carrier.html">carrier</a></li> -->
+                            <li><a href="patientportal.html">Patient Portal</a></li>
+                            <li><a href="contact.html">Contact us</a></li>
+                        </ul>
+                     </div>
+                       
+                    </div>
+            
+                
+                <div class="col-6 col-m-4">
+                    <div class="social">
+                        <ul class="flex socio">
+                            <li><a href=""><span class="fab fa-facebook-f"></span></a></li>
+                            <li><a href=""><span class="fab fa-google-plus-g"></span></a></li>
+                            <li><a href=""><span class="fab fa-vk"></span></a></li>
+                            <li><a href=""><span class="fab fa-youtube"></span></a></li>
+                            <li><a href=""><span class="fab fa-linkedin-in"></span></a></li>
+                        </ul>
+                    </div>
+                 </div>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="banner" role="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <div class="text">
+                        <h2>We have best Medicare <br> plan options for you</h2>
+                        <p id="show">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam <br>dolor
+                            itaque assumenda unde dolorespossimus inventore </p>
+                        <p id="hide">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam <br>dolor
+                            itaque assumenda unde dolorespossimus inventore </p>
+                        <button class="btn" id="extra">READ MORE</button>
+                    </div>
+                </div>
+                <div class="col-6 card">
+                    <!-- <div class="abs">
+                        <h2><img src="img/Untitled-2.png" alt=""><span class="care">care</span>point </h2>
+                        <small>BEST DOCTOR</small>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+            
+        
+   
+    <div class="wrap-4" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-3 col-p-6 gd">
+                    <i class="fa fa-stethoscope"></i>
+                    <h3>Best treatment</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam dolore recusandae, saepe illo vero.
+                    </p>
+                </div>
+                <div class="col-3 col-p-6 gd">
+                    <i class="fa fa-phone-volume"></i>
+                    <h3>Emergency Help</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium possimus suscipit quia.
+                    </p>
+                </div>
+                <div class="col-3 col-p-6 gd">
+                    <i class="fa fa-user-nurse"></i>
+                    <h3>Medical Staff</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In vitae debitis veritatis earum ab iurerr rtrtr.
+                    </p>
+                </div>
+                <div class="col-3 col-p-6 gd">
+                    <i class="fa fa-truck-medical"></i>
+                    <h3>Qualified Doctors</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, alias modi mollitia maxime ni
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="wrap-5 text-alig">
+        <div class="container">
+            <div class="row ">
+               <div class="col-2"></div>
+               <div class="col-8 top-text">
+                <h2>Why Choose Us ?</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam libero ea exercitationem aspernatur fuga recusandae perferendis ab velit voluptate Lorem ipsum dolor sit amet consectetur .
+                 
+                </p>
+               </div>
+
+            </div>
+            <div class="row alig">
+                <div class="col-4 col-m-12 sec-1">
+                   <div class="prof-1">
+                    <img src="images/prof-1.webp"  alt="img2" width="50" height="50">
+                    <h2>Professional</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus, officiis! Ipsam </p>
+                   </div>
+                   <div>
+                    <img src="images/prof-2.webp"  alt="img2" width="50" height="50">
+                    <h2>Professional</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus, officiis! Ipsam </p>
+                   </div>
+                   
+                </div>
+                <div class="col-4 col-m-12">
+                    <div class="bg-none new">
+                        <img src="images/nurse.webp" alt="img2" class="nurse">
+                    </div>
+            
+                
+                </div>
+                <div class="col-4 col-m-12 sec-2">
+                    <div class="prof-2">
+                        <img src="images/prof-3.webp"  alt="img2" width="50" height="50">
+                        <h2>Professional</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus, officiis! Ipsam</p>
+
+                    </div>
+                    <div>
+                        <img src="images/prof-4.webp"  alt="img2" width="50" height="50">
+                        <h2>Professional</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus, officiis! Ipsam </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+ </section>
+ <section class="wrap-6 flex">
+    <div class="container">
+      <div class="row happy">
+        <div class="col-3 col-m-6 customer">
+          <i class="fa-solid fa-hand-holding-medical fa-3x"></i>
+          <h2 class="count" data-count="140000">0</h2>
+          <div class="line"></div>
+          <div>
+            <h4>Happy</h4>
+            <h4>Customers</h4>
+          </div>
+        </div>
+        <div class="col-3 col-m-6 host">
+          <i class="fa-solid fa-heart-pulse fa-3x"></i>
+          <h2 class="count" data-count="14500">0</h2>
+          <div class="line"></div>
+          <div>
+            <h4>Top</h4>
+            <h4>Hospitality</h4>
+          </div>
+        </div>
+        <div class="col-3 col-m-6">
+          <i class="fa-solid fa-helicopter fa-3x"></i>
+          <h2 class="count" data-count="15000">0</h2>
+          <div class="line"></div>
+          <div>
+            <h4>Innovative</h4>
+            <h4>Approach</h4>
+          </div>
+        </div>
+        <div class="col-3 col-m-6">
+          <i class="fa-solid fa-lungs fa-3x"></i>
+          <h2 class="count" data-count="59000">0</h2>
+          <div class="line"></div>
+          <div>
+            <h4>Lung</h4>
+            <h4>Customers</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<section class="wrap-7">
+    <div class="container">
+        <div class="row">
+            <div class="col-8">
+               <div class="title">
+                   <h2>How we Works</h2>
+                   <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet.</p> </div>
+                   <div class=" row article">
+                    <div class="col-6">
+                     <img src="images/work-1.webp" width="334" height="224" alt="img2">
+                     <small>Lorem ipsum dolor sit amet, </small>
+                     <time datetime="2024-04-19">April 19, 2024</time> | Dr. Jon Doe
+                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium Lorem ipsum dolor,</p>
+                    </div>
+                    <!-- <div class="col-1"></div> -->
+                    <div class="col-6">
+                    <img src="images/work-2.webp" width="334" height="224" alt="img2">
+                    <small>Lorem ipsum dolor sit amet, </small>
+                    <time datetime="2024-04-19">April 19, 2024</time> | Dr. Jon Doe
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium Lorem ipsum dolor  </p>
+                   </div>
+                   <div class="col-6">
+                    <img src="images/work-1.webp" width="334" height="224" alt="img2">
+                    <small>Lorem ipsum dolor sit amet, </small>
+                    <time datetime="2024-04-19">April 19, 2024</time> | Dr. Jon Doe
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium Lorem ipsum dolor,</p>
+                   </div>
+                   <!-- <div class="col-1"></div> -->
+                   <div class="col-6">
+                   <img src="images/work-2.webp" width="334" height="224" alt="img2">
+                   <small>Lorem ipsum dolor sit amet, </small>
+                   <time datetime="2024-04-19">April 19, 2024</time> | Dr. Jon Doe
+                   <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium Lorem ipsum dolor  </p>
+                  </div>
+                   
+                </div>
+            <div class="butt">
+                <button class="bt-1">READ MORE</button></div>  
+        </div>
+            <div class="col-4">
+            <div class="aside">
+             <h2>Our creative</h2>
+             <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+             </div>
+            <div class="accordian">
+                <button class="btn bt-2 active">Heart Treatment</button>
+                <p>Sed ut perspiciatis unde omnis iste natus error s.it voluptatem accusantium doloremque laudantium.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+                <button class="btn bt-2">Heart Treatment</button>
+                <p>Sed ut perspiciatis unde omnis iste natus error s.it voluptatem accusantium doloremque laudantium.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+                <button class="btn bt-2">Heart Treatment</button>
+                <p>Sed ut perspiciatis unde omnis iste natus error s.it voluptatem accusantium doloremque laudantium.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+                <button class="btn bt-2">Heart Treatment</button>
+                <p>Sed ut perspiciatis unde omnis iste natus error s.it voluptatem accusantium doloremque laudantium.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+            </div>
+        </div>
+     </div>
+   </div>
+</section>
+<section class="wrap-8">
+    <div class="container">
+        <div class="row text-alig justif ">
+            <div class="gallery" >
+                <h2>Gallery</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci, doloribus qui ullam, sequi magnam explicabo, exercitationem veritatis sunt quis voluptas accusantium dolorum? Commodi, eius ipsam?</p>
+            </div>
+            <div class="pics">
+                <div class="col-4 ">
+                    <img src="images/gal-1.webp"  alt="img2">
+                </div>
+                <div class="col-4">
+                    <img src="images/gal-2.webp"  alt="img2">
+                </div>
+                <div class="col-4">
+                    <img src="images/gal-3.webp"  alt="img2">
+                </div>
+                <div class="col-4">
+                    <img src="images/gal-4.webp" alt="img2">
+                </div>
+                <div class="col-4">
+                    <img src="images/gal-5.webp"  alt="img2">
+                </div>
+                <div class="col-4">
+                    <img src="images/gal-1.webp"  alt="img2">
+                </div>
+               
+            </div>
+        </div>
+
+    </div>
+</section>
+<section class="wrap-9">
+    <div class="container">
+        <div class="row">
+            <div class="m-top">
+                 <h2>Our Team</h2>
+                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro vel dignissimos eius pariatur perspiciatis quam! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, consequatur?</p>
+            </div>
+        </div>
+        <div class="row text-alig doc-list">
+           <div><img src="images/d-1.webp" alt="img2"><h2 >Dr Ricky Doe</h2>
+            <p>Assistant Surgeon</p>
+            <div class="icon">
+             <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-google-plus"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+        </div> 
+            <div><img src="images/d-2.webp"  alt="img2"><h2>Dr Ricky Doe</h2>
+                <p>Assistant Surgeon</p>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-google-plus"></i>
+                    <i class="fab fa-instagram"></i>
+                </div></div>
+            <div><img src="images/d-3.webp" alt="img2"><h2>Dr Ricky Doe</h2>
+                <p>Assistant Surgeon</p>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-google-plus"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+            <div><img src="images/d-4.webp" alt="img2"><h2>Dr Ricky Doe</h2>
+                <p>Assistant Surgeon</p>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-google-plus"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+    <!-- </div> -->
+ <!-- </div> -->
+<!-- </div> -->
+</section>
+
+<div class="wrap-10">
+    <div class="container">
+        <div class="row"> 
+        <div class="col-1"></div>
+        <div class="col-8 col-m-8 col-p-12">
+                <p class="special">New Patient Special Offer Complimentary Consultation</p>
+          </div>
+          <div class="col-2 read"><button class="btn-2">READ MORE</button></div>
+            
+        </div>
+    </div>
+</div>
+<footer class="wrap-11">
+    <div class="container box">
+        <div class="row">
+            <div class="col-3">
+              <div class="foot-1">
+                <h3>Get in Touch</h3>
+                <div class="flex row space align high">
+                    <div>
+                        <i class="fa fa-envelope" style="font-size:26px;margin-right: 15px;"></i>
+                    </div>
+                    
+                    <div>
+                        <div>free@psdfreebies.com</div>
+                        <div>free@psdfreebies.com</div>
+                    </div>
+                </div>
+                <div class="flex row space align high">
+                    <div><i class="fa fa-mobile-android" style="font-size:26px;margin-right: 15px;"></i></div>
+                    <div>
+                        <div>+9133332434342</div>
+                        <div>+90 e24344223</div>
+                    </div>
+                    
+                </div>
+                <div class="flex row space">
+                    <div><i class="fa fa-map-location" style="font-size:26px;margin-right: 15px;"></i></div>
+                    <div>
+                        <div>+123 main road,new delhi</div>
+                        <div>My country 12345</div>
+                    </div>
+                    
+                </div>
+                
+                <div class="social">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-google-plus"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fab fa-linkedin"></i>
+                </div>
+            </div>    
+
+                </div>
+                <div class="col-3">
+                    <div>
+                        <h3>Quick links</h3>
+                        <ol>
+                            <li>About us</li>
+                            <li>Blog</li>
+                            <li>contact us</li>
+                            <li>faq</li>
+                            <li>insurence</li>
+                            <li>contact us</li>
+                        </ol>
+                    </div>
+    
+                </div>
+                <div class="col-3">
+                    <div>
+                        <h3>our services</h3>
+                        <ol>
+                            <li>About us</li>
+                            <li>Blog</li>
+                            <li>contact us</li>
+                            <li>faq</li>
+                            <li>insurence</li>
+                            <li>contact us</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="col-2 col-t-12 col-m-12 col-p-12">
+                    <h3>Enquire Form</h3>
+                     <div class="row">
+                        <form>
+                            <input type="text" required placeholder="Name" aria-label="Name" >
+                            <input type="email" required placeholder="Phone" aria-label="Email">
+                            <textarea placeholder="message" style="height:80px"></textarea>
+                        </form>
+                      <button class="btn-1">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+     <!-- </div>     -->
+</footer>
+<div class="foot text-alig bg-col">
+     <span>Copyright &copy;  2023 ashutosh24@gmail.com &VerticalLine;Best psd templates for work and agencies</span>
+</div> 
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const counters = document.querySelectorAll('.count');
+      const speed = 12000;
+
+      counters.forEach(counter => {
+        const updateCount = () => {
+          const target = +counter.getAttribute('data-count');
+          const count = +counter.innerText;
+
+          const inc = target / speed;
+
+          if (count < target) {
+            counter.innerText = Math.ceil(count + inc);
+            setTimeout(updateCount, 1);
+          } else {
+            counter.innerText = target;
+          }
+        };
+
+        updateCount();
+      });
+    });
+  </script>
+</body>
+</html>
+
+</body>
+
+
+</html>
